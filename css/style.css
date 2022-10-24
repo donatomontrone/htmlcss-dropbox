@@ -26,7 +26,14 @@ h1 {
     font-size: 4rem;
     text-align: justify;
     padding-right: 200px;
+    margin: 3rem 0 2rem 0;
     min-width: 1400px;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: justify;
+    padding-bottom: 2rem;
 }
 .flex {
     display: flex;
@@ -60,8 +67,6 @@ h1 {
     width: 70%;
     margin: 0 auto;
 }
-
-
 
 ul {
     list-style-type: none;
@@ -98,29 +103,41 @@ button.blue-button {
 }
 section.top-section {
     background-color: #B4D0E7;
-    height: 400px;
     padding-top: 4rem;
 }
 
-
-
 div.top-section-left{
-    width: 35%;
+    width: 23%;
 }
 
-div.img {
-    width: 500px;
-    height: 400px;
-    background-color: blue;
+div.top-section-left p{
+    margin: 1.5rem 0;
+}
+
+div.top-section-left .fa-arrow-down {
+    margin: 2rem 0 .8rem 0;
+}
+
+div.top-section-right img {
+    width: 900px;
+    height: 500px;
+    position: absolute;
+    top: 35%;
+    right: 20%;
+}
+
+.card-section {
+    margin-top: 15rem;
+}
+
+label[for=month] {
+    padding-right: 2.5rem;
 }
 
 .radio-button {
     display: inline;
 }
 
-.card-section {
-    margin-top: 3rem;
-}
 .column-card {
     height: 600px;
     background-color: aqua;
