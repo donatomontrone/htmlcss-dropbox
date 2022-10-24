@@ -13,6 +13,11 @@ header {
     background-color: yellow;
     height: 8vh;
 }
+
+footer {
+    background-color: black;
+    color: white;
+}
 .flex {
     display: flex;
 }
@@ -31,6 +36,11 @@ header {
     align-items: center;
 }
 
+.between{
+    justify-content: space-between;
+    align-items: center;
+}
+
 .container {
     width: 60%;
     margin: 0 auto;
@@ -42,13 +52,12 @@ header {
 }
 
 
-div.header-left ul,
-div.header-right ul {
+
+ul {
     list-style-type: none;
 }
 
-div.header-left ul li,
-div.header-right ul li {
+header ul li{
     display: inline;
 }
 
@@ -132,17 +141,17 @@ div.img {
 }
 
 .bottom-features {
-    height: 556px;
+    height: 640px;
 }
 
 .left-boxes,
 .right-boxes {
-    width: 556px;
+    width: 640px;
 }
 
 .big-box {
-    width: 556px;
-    height: 556px;
+    width: 640px;
+    height: 640px;
     background-color: grey;
     display: inline-block;
 }
@@ -150,6 +159,31 @@ div.img {
 .box {
     background-color: red;
     border: 2px solid black;
-    width: 278px;
-    height: 278px;
+    width: 320px;
+    height: 320px;
+}
+div.bottom-features{
+    min-width: 1920px;
+}
+section.into-business {
+    height: 280px;
+    background-color: #B4D0E7;
+}
+
+.into-business > div {
+    height: 100%;
+}
+
+.faqs {
+    margin-top: 4rem;
+}
+
+.footer-top {
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.language i,
+.language p{
+    display: inline;
 }
