@@ -22,6 +22,10 @@ header {
     flex-direction: column;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
 .flex-centered {
     justify-content: center;
     align-items: center;
@@ -97,4 +101,55 @@ div.img {
 
 .partners-right {
     width: 30%;
+}
+
+.business-card {
+    background-color: coral;
+    width: calc((100% / 3) - 2rem);
+    margin: 1rem;
+}
+
+.business-card .img {
+    width: 320px;
+    height: 150px;
+    background-color: blue;
+}
+
+.business-cards h2 {
+    margin-left: 1rem;
+}
+
+.top-features h2 {
+    width: 40%;
+}
+
+.top-features{
+    margin-top: 4rem;
+}
+
+.top-features > a {
+    margin-top: 4rem;
+}
+
+.bottom-features {
+    height: 556px;
+}
+
+.left-boxes,
+.right-boxes {
+    width: 556px;
+}
+
+.big-box {
+    width: 556px;
+    height: 556px;
+    background-color: grey;
+    display: inline-block;
+}
+
+.box {
+    background-color: red;
+    border: 2px solid black;
+    width: 278px;
+    height: 278px;
 }
