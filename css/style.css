@@ -66,3 +66,35 @@ div.img {
     height: 400px;
     background-color: blue;
 }
+
+.radio-button {
+    display: inline;
+}
+
+.card-section {
+    margin-top: 3rem;
+}
+.column-card {
+    height: 600px;
+    background-color: aqua;
+    margin: 10px;
+    width: 320px;
+}
+
+.row-card {
+    height: 200px;
+    background-color: aqua;
+}
+
+.partners {
+    margin-top: 6rem;
+}
+.img-partner .img {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.partners-right {
+    width: 30%;
+}
