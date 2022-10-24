@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: yellow;
+    height: 8vh;
+}
 .flex {
     display: flex;
 }
@@ -19,11 +28,41 @@
 }
 
 .container {
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
 }
 
 .max-container {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
+}
+
+
+div.header-left ul,
+div.header-right ul {
+    list-style-type: none;
+}
+
+div.header-left ul li,
+div.header-right ul li {
+    display: inline;
+}
+
+section.header-top {
+    justify-content: space-between;
+}
+
+section.top-section {
+    background-color: #B4D0E7;
+    height: 400px;
+}
+
+div.top-section-left{
+    width: 35%;
+}
+
+div.img {
+    width: 500px;
+    height: 400px;
+    background-color: blue;
 }
