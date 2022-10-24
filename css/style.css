@@ -10,13 +10,23 @@ body {
 }
 
 header {
-    background-color: yellow;
-    height: 8vh;
+    height: 6vh;
+    position: fixed;
+    background-color: white;
+    min-width: 100vw;
 }
 
 footer {
     background-color: black;
     color: white;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 4rem;
+    text-align: justify;
+    padding-right: 200px;
+    min-width: 1400px;
 }
 .flex {
     display: flex;
@@ -55,20 +65,44 @@ footer {
 
 ul {
     list-style-type: none;
+    display: inline-block;
 }
 
 header ul li{
     display: inline;
+    padding: 1rem;
 }
 
 section.header-top {
     justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin: 0 1rem;
 }
 
+div.header-left img {
+    width: 100px;
+    vertical-align: bottom;
+}
+
+.small-f {
+    font-size: .8rem;
+}
+
+button.blue-button {
+    padding: .4rem .78rem;
+    background-color: #0561FF;
+    color: white;
+    border: none
+
+}
 section.top-section {
     background-color: #B4D0E7;
     height: 400px;
+    padding-top: 4rem;
 }
+
+
 
 div.top-section-left{
     width: 35%;
