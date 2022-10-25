@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    min-width: 1920px;
 }
 
 header {
@@ -34,7 +35,6 @@ h1 {
 h2 {
     font-size: 2rem;
     text-align: justify;
-    padding-bottom: 2rem;
 }
 
 h3 {
@@ -103,14 +103,12 @@ header ul li{
     padding: 1rem;
 }
 
-section.header-top {
-    justify-content: space-between;
-    align-items: center;
+nav.header-nav {
     height: 100%;
     margin: 0 1rem;
 }
 
-div.header-left img {
+div.nav-left img {
     width: 100px;
     vertical-align: bottom;
 }
@@ -119,40 +117,52 @@ div.header-left img {
     font-size: .8rem;
 }
 
-button.blue-button {
+.button {
     padding: .4rem .78rem;
+    border: none
+}
+button.blue-button {
     background-color: #0561FF;
     color: white;
-    border: none
-
 }
-section.top-section {
+
+button.white-button {
+    background-color: white;
+    color: grey;
+    border: 1px solid grey;
+}
+
+section.jumbotron {
     background-color: #B4D0E7;
     padding-top: 4rem;
 }
 
-div.top-section-left{
+div.jumbo-left{
     width: 23%;
 }
 
-div.top-section-left p{
+div.jumbo-left p{
     margin: 1.5rem 0;
 }
 
-div.top-section-left .fa-arrow-down {
+div.jumbo-left .fa-arrow-down {
     margin: 2rem 0 .8rem 0;
 }
 
-div.top-section-right img {
-    width: 900px;
-    height: 500px;
+div.jumbo-right img {
+    width: 770px;
+    height: 450px;
     position: absolute;
     top: 35%;
-    right: 20%;
+    right: 30%;
 }
 
 .card-section {
     margin-top: 15rem;
+}
+
+section.card-section > h2 {
+    padding-bottom: 2rem;
 }
 
 label[for=month] {
@@ -165,7 +175,7 @@ label[for=month] {
 
 .column-card {
     height: 750px;
-    width: calc(100% / 3);
+    width: calc((100% / 3) - 2rem);
 }
 
 .column-card,
@@ -174,9 +184,6 @@ label[for=month] {
     margin: 2rem 0;
 }
 
-.middle-card {
-    margin: 2rem;
-}
 
 .card-type {
     text-align: center;
@@ -208,10 +215,10 @@ label[for=month] {
     width: 25%;
     margin: 2rem;
 }
+
 .color-grey {
     color: grey
 }
-
 
 .column-button {
     width: 100%;
@@ -221,30 +228,36 @@ label[for=month] {
 .partners {
     margin-top: 6rem;
 }
-.img-partner .img {
-    width: 200px;
-    height: 200px;
-    background-color: blue;
+.img-partner {
+    width: 65%;
+    height: 500px;
+}
+
+.img-partner > img {
+    width: 100%;
+    height: 100%;
 }
 
 .partners-right {
     width: 30%;
+    height: 400px;
 }
 
+.partners-right p{
+    padding: 1rem 0;
+}
+
+section.business-cards {
+    margin-top: 4rem;
+}
 .business-card {
-    background-color: coral;
     width: calc((100% / 3) - 2rem);
-    margin: 1rem;
+    margin-top: 2rem;
 }
 
-.business-card .img {
+.business-card img {
     width: 320px;
-    height: 150px;
-    background-color: blue;
-}
-
-.business-cards h2 {
-    margin-left: 1rem;
+    height: 250px;
 }
 
 .top-features h2 {
@@ -260,30 +273,22 @@ label[for=month] {
 }
 
 .bottom-features {
-    height: 640px;
+    margin-top: 7rem;
 }
 
-.left-boxes,
-.right-boxes {
-    width: 640px;
+.bottom-features .boxes {
+    height: calc(100vw / 3);
+    width: calc(100vw / 3);
 }
 
-.big-box {
-    width: 640px;
-    height: 640px;
-    background-color: grey;
-    display: inline-block;
-}
 
 .box {
     background-color: red;
+    height: 50%;
+    width: 50%;
     border: 2px solid black;
-    width: 320px;
-    height: 320px;
 }
-div.bottom-features{
-    min-width: 1920px;
-}
+
 section.into-business {
     height: 280px;
     background-color: #B4D0E7;

@@ -16,8 +16,8 @@
     </head>
     <body>
         <header>
-            <section class="header-top flex">
-                <div class="header-left">
+            <nav class="header-nav flex between">
+                <div class="nav-left">
                     <img src="css/img/logo-small.png" alt="Dropbox main logo">
                     <ul>
                         <li class="small-f">Perché Dropbox</li>
@@ -25,29 +25,29 @@
                         <li class="small-f">Piani e Prezzi</li>
                     </ul>
                 </div>
-                <div class="header-right">
+                <div class="nav-right">
                     <ul>
                         <li class="small-f">Supporto</li>
                         <li class="small-f">Contatta l'ufficio vendite</li>
                         <li class="small-f">Accedi</li>
-                        <button class="blue-button small-f">Inizia</button>
+                        <button class="blue-button button small-f">Inizia</button>
                     </ul>
                 </div>
-            </section>
+            </nav>
         </header>
         <main>
-            <section class="top-section">
+            <section class="jumbotron">
                 <div class="max-container">
                     <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
                     <div class="bottom-title flex">
-                        <div class="top-section-left">
+                        <div class="jumbo-left">
                             <p class="small-f">Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
-                            <button class="small-f blue-button">Inizia la tua prova gratuita</button>
+                            <button class="small-f button blue-button">Inizia la tua prova gratuita</button>
                             <p class="small-f">Annulla in qualsiasi momento</p>
                             <i class="fa-solid fa-arrow-down fa-2x"></i>
                         </div>
-                        <div class="top-section-right">
-                            <img src="css/img/jumbo.png" alt="Jumbotron">
+                        <div class="jumbo-right">
+                            <img src="css/img/jumbo.png" alt="Jumbo">
                         </div>
                     </div>
                 </div>
@@ -60,7 +60,7 @@
                     <input type="radio" id="css" name="billing" value="year">
                     <label for="year">Fatturazione annuale</label>
                 </div>
-                <div class="column-cards flex flex-centered">
+                <div class="column-cards flex between">
                     <article class="column-card">
                         <div class="card-type">
                             <p class="small-f"><i class="fa-solid fa-user"></i> Singolo</p>
@@ -74,7 +74,7 @@
                             <li class="small-f"><span><i class="fa-solid fa-folder"></i></span> 5 TB di spazio di archiviazione sicuro</li>
                             <li class="small-f"><span><i class="fa-solid fa-diagram-project"></i></span> Funzioni di produttività premium e condivisione file semplice e sicura</li>
                         </ul>
-                        <button class="small-f column-button blue-button">Prova gratis per 30 giorni</button>
+                        <button class="small-f column-button button blue-button">Prova gratis per 30 giorni</button>
                         <p class="small-f"><span>oppure</span><a href="#">acquista ora</a></p>
                         <ul>
                             <h4>Punti Salienti del piano</h4>
@@ -83,7 +83,7 @@
                         </ul>
                         </div>
                     </article>
-                    <article class="column-card middle-card">
+                    <article class="column-card">
                         <div class="card-type">
                             <p class="small-f"><i class="fa-solid fa-users"></i> Team</p>
                         </div>
@@ -96,7 +96,7 @@
                             <li class="small-f"><span><i class="fa-solid fa-folder"></i></span> Tutto lo spazio di cui ha bisogno il tuo team</li>
                             <li class="small-f"><span><i class="fa-solid fa-diagram-project"></i></span> Sofisticate funzioni di controllo e pr tenere al sicuro tutti i file del tuo team</li>
                         </ul>
-                        <button class="small-f column-button blue-button">Prova gratis per 30 giorni</button>
+                        <button class="small-f column-button button blue-button">Prova gratis per 30 giorni</button>
                         <p class="small-f"><span>oppure</span><a href="#">acquista ora</a></p>
                         <ul>
                             <h4>Punti Salienti del piano</h4>
@@ -121,7 +121,7 @@
                             <li class="small-f"><span><i class="fa-solid fa-folder"></i></span> Soluzioni personalizzabili per la tua azienda</li>
                             <li class="small-f"><span><i class="fa-solid fa-diagram-project"></i></span> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</li>
                         </ul>
-                        <button class="small-f blue-button column-button">Contattaci</button>
+                        <button class="small-f button blue-button column-button">Contattaci</button>
                         <p class="small-f"><span>oppure</span><a href="#">acquista ora</a></p>
                         <ul>
                             <h4>Punti Salienti del piano</h4>
@@ -142,55 +142,53 @@
                             <p><strong>Contatta l'ufficio vendite per i prezzi</strong></p>
                             <p class="small-f">Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</p>
                         </div>
-                        <button class="small-f blue-button row-button">Contattaci</button>
+                        <button class="small-f button blue-button row-button">Contattaci</button>
 
                     </div>
                 </article>
             </section>
-            <section class="partners container flex-centered flex">
+            <section class="partners container between flex">
                 <div class="img-partner">
-                    <div class="img"></div>
+                    <img src="css/img/partner.png" alt="">
                 </div>
                 <div class="partners-right">
-                    <h3>Titolo numero 3</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore officiis, esse enim expedita nesciunt cupiditate repudiandae dolor aliquam itaque ipsa deleniti soluta dicta nisi totam, saepe distinctio delectus placeat harum.</p>
-                    <button>trova partner</button>
+                    <h3>Entra in contatto con un parner Dropbox</h3>
+                    <p class="small-f">Trova un partner Dropbox e HelloSign di fiducia. Ottieni la soluzione e i servizi per raggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui.</p>
+                    <button class="white-button button small-f">Trova un partner</button>
                 </div>
             </section>
             <section class="business-cards container">
-                <h2>Titolo secondario</h2>
-                <div class="top-business-cards flex">
+                <h2>Esegui più operazioni con Dropbox Business</h2>
+                <div class="between wrap flex">
                     <article class="business-card">
-                        <div class="img"></div>
-                        <h3>Titolo meno importante</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum assumenda vitae nostrum libero odit enim, id laboriosam provident. Et temporibus deserunt autem cupiditate quasi voluptate accusamus beatae asperiores illo repudiandae.</p>
+                        <img src="css/img/business-feature-switching-tools.png" alt="Feature">
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox</p>
                     </article>
                     <article class="business-card">
-                        <div class="img"></div>
-                        <h3>Titolo meno importante</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum assumenda vitae nostrum libero odit enim, id laboriosam provident. Et temporibus deserunt autem cupiditate quasi voluptate accusamus beatae asperiores illo repudiandae.</p>
+                        <img src="css/img/business-feature-send-files-it.png" alt="Feature">
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox</p>
                     </article>
                     <article class="business-card">
-                        <div class="img"></div>
-                        <h3>Titolo meno importante</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum assumenda vitae nostrum libero odit enim, id laboriosam provident. Et temporibus deserunt autem cupiditate quasi voluptate accusamus beatae asperiores illo repudiandae.</p>
-                    </article>
-                </div>
-                <div class="bottom-business-cards flex">
-                    <article class="business-card">
-                        <div class="img"></div>
-                        <h3>Titolo meno importante</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum assumenda vitae nostrum libero odit enim, id laboriosam provident. Et temporibus deserunt autem cupiditate quasi voluptate accusamus beatae asperiores illo repudiandae.</p>
+                        <img src="css/img/business-feature-coordinate-it.png" alt="Feature">
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox</p>
                     </article>
                     <article class="business-card">
-                        <div class="img"></div>
-                        <h3>Titolo meno importante</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum assumenda vitae nostrum libero odit enim, id laboriosam provident. Et temporibus deserunt autem cupiditate quasi voluptate accusamus beatae asperiores illo repudiandae.</p>
+                        <img src="css/img/business-feature-integrations-it.png" alt="Feature">
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox</p>
                     </article>
                     <article class="business-card">
-                        <div class="img"></div>
-                        <h3>Titolo meno importante</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum assumenda vitae nostrum libero odit enim, id laboriosam provident. Et temporibus deserunt autem cupiditate quasi voluptate accusamus beatae asperiores illo repudiandae.</p>
+                        <img src="css/img/business-feature-multi-device.png" alt="Feature">
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox</p>
+                    </article>
+                    <article class="business-card">
+                        <img src="css/img/business-feature-security.png" alt="Feature">
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox</p>
                     </article>
                 </div>
             </section>
@@ -200,14 +198,18 @@
                     <a href="#">Scopri i nostri clienti</a>
                 </div>
                 <div class="bottom-features flex">
-                    <div class="left-boxes flex wrap">
+                    <div class="boxes flex wrap">
                         <div class="box"></div>
                         <div class="box"></div>
                         <div class="box"></div>
                         <div class="box"></div>
                     </div>
-                    <article class="big-box flex"></article>
-                    <div class="right-boxes flex wrap">
+                    <div class="boxes">
+                        <h3>Lorem ipsum dolor sit amet.
+                        </h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis suscipit quo cum, labore earum doloremque deserunt voluptatum facilis vero, assumenda quasi, sit modi a possimus nemo magnam temporibus doloribus repudiandae!</p>
+                    </div>
+                    <div class="boxes flex wrap">
                         <div class="box"></div>
                         <div class="box"></div>
                         <div class="box"></div>
