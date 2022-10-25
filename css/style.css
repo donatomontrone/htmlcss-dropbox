@@ -127,9 +127,20 @@ button.blue-button {
     color: white;
 }
 
+button.blue-button:active {
+    background-color: #0D2381;
+}
+
 button.white-button {
     color: grey;
     border: 1px solid grey;
+}
+
+button.white-button:active,
+section.into-business div button:active {
+    background-color: lightgray;
+    color:white;
+    border:none
 }
 
 section.jumbotron {
@@ -138,7 +149,7 @@ section.jumbotron {
 }
 
 div.jumbo-left{
-    width: 23%;
+    width: 30%;
 }
 
 div.jumbo-left p{
@@ -149,13 +160,17 @@ div.jumbo-left .fa-arrow-down {
     margin: 2rem 0 .8rem 0;
 }
 
+div.jumbo-right {
+    width: 70%;
+    position: relative;
+}
+
 div.jumbo-right img {
-    width: 770px;
-    height: 450px;
+    width: 700px;
+    height: 380px;
     position: absolute;
-    top: 35%;
-    right: 26%;
-    max-width: 1920px;
+    top: 0;
+    right: 0;
 }
 
 .card-section {
@@ -288,11 +303,21 @@ div.top-features a {
 .box {
     height: 50%;
     width: 50%;
+    transition: 2s linaer;
+}
+
+.box:hover img{
+    transform: scale(1.5);
+}
+.box:hover{
+    box-shadow: rgb(44, 62, 80) 0px 0px 15px 0px inset;
+
 }
 
 .box img {
     width: 50%;
     filter: invert(1);
+    transition: 2s linear;
 }
 
 .big-box {
