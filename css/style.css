@@ -174,7 +174,7 @@ div.jumbo-right img {
 }
 
 .card-section {
-    margin-top: 15rem;
+    margin-top: 8rem;
 }
 
 section.card-section > h2 {
@@ -303,7 +303,7 @@ div.top-features a {
 .box {
     height: 50%;
     width: 50%;
-    transition: 2s linaer;
+    transition: 1s linear;
 }
 
 .box:hover img{
@@ -317,7 +317,7 @@ div.top-features a {
 .box img {
     width: 50%;
     filter: invert(1);
-    transition: 2s linear;
+    transition: 1s linear;
 }
 
 .big-box {
