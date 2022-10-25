@@ -19,6 +19,7 @@ header {
 }
 
 footer {
+    margin-top: 5rem;
     background-color: black;
     color: white;
 }
@@ -34,7 +35,6 @@ h1 {
 
 h2 {
     font-size: 2rem;
-    text-align: justify;
 }
 
 h3 {
@@ -84,12 +84,12 @@ h4 ~ li::before {
 }
 
 .container {
-    width: 55%;
+    width: 50%;
     margin: 0 auto;
 }
 
 .max-container {
-    width: 70%;
+    width: 65%;
     margin: 0 auto;
 }
 
@@ -119,6 +119,7 @@ div.nav-left img {
 
 .button {
     padding: .4rem .78rem;
+    background-color: white;
     border: none
 }
 button.blue-button {
@@ -127,7 +128,6 @@ button.blue-button {
 }
 
 button.white-button {
-    background-color: white;
     color: grey;
     border: 1px solid grey;
 }
@@ -154,7 +154,7 @@ div.jumbo-right img {
     height: 450px;
     position: absolute;
     top: 35%;
-    right: 30%;
+    right: 26%;
 }
 
 .card-section {
@@ -191,12 +191,9 @@ label[for=month] {
     border-bottom: 1px solid lightgrey;
 }
 
-.column-card ul {
-    list-style: none;
-}
 
-.column-card ul li{
-    list-style: none;
+.column-card ul li,
+.footer-top ul li{
     line-height: 1rem;
     padding: .7rem 0;
 }
@@ -260,16 +257,21 @@ section.business-cards {
     height: 250px;
 }
 
-.top-features h2 {
-    width: 40%;
+.business-card p {
+    padding-top: 2rem;
 }
 
-.top-features{
+div.top-features h2 {
+    width: 50%;
+    padding-bottom: 3rem;
+}
+
+div.top-features{
     margin-top: 4rem;
 }
 
-.top-features > a {
-    margin-top: 4rem;
+div.top-features a {
+    color: #0561FF;
 }
 
 .bottom-features {
@@ -283,14 +285,36 @@ section.business-cards {
 
 
 .box {
-    background-color: red;
     height: 50%;
     width: 50%;
-    border: 2px solid black;
+}
+
+.box img {
+    width: 50%;
+    filter: invert(1);
+}
+
+.big-box {
+    padding: 2rem;
+    background-color: #F5F5F5;
+}
+
+.big-box img {
+    width: 50%;
+}
+
+.big-box p:last-child {
+    padding-top: 2rem;
+}
+
+hr {
+    width: 20%;
+    margin: 3rem 0;
+
 }
 
 section.into-business {
-    height: 280px;
+    padding: 6rem 0;
     background-color: #B4D0E7;
 }
 
@@ -298,8 +322,27 @@ section.into-business {
     height: 100%;
 }
 
+.into-business div h2 {
+    width: 50%;
+    color: #61142B;
+}
+
 .faqs {
     margin-top: 4rem;
+    border-bottom: 1px solid grey;
+}
+
+.faqs h2 {
+    margin-bottom: 3rem;
+}
+.faqs .faq {
+    padding: 2rem 0;
+    border-top: 1px solid grey;
+
+}
+
+.fa-chevron-down {
+    padding-right: 2rem;
 }
 
 .footer-top {
@@ -307,7 +350,43 @@ section.into-business {
     align-items: center;
 }
 
+.footer-top h3 {
+    margin: 1rem 0;
+}
+
 .language i,
 .language p{
     display: inline;
+}
+
+#designit{
+    background-color: #A3D39B;
+}
+
+#asu{
+    background-color: #60092B;
+}
+
+#uf{
+    background-color: #0093CE;
+}
+
+#topps{
+    background-color: #FF1C1B;
+}
+
+#wbr{
+    background-color: #D5011F;
+}
+
+#hearst{
+    background-color: #B4D0E7;
+}
+
+#lonely{
+    background-color: #0D2381;
+}
+
+#clear-channel{
+    background-color: #FFD92F;
 }
