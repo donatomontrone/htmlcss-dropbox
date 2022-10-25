@@ -14,8 +14,8 @@ header {
     height: 6vh;
     position: fixed;
     background-color: white;
-    min-width: 100vw;
     z-index: 1;
+    min-width: 1920px;
 }
 
 footer {
@@ -155,6 +155,7 @@ div.jumbo-right img {
     position: absolute;
     top: 35%;
     right: 26%;
+    max-width: 1920px;
 }
 
 .card-section {
@@ -297,11 +298,13 @@ div.top-features a {
 .big-box {
     padding: 2rem;
     background-color: #F5F5F5;
+    overflow: scroll;
 }
 
 .big-box img {
     width: 50%;
 }
+
 
 .big-box p:last-child {
     padding-top: 2rem;
