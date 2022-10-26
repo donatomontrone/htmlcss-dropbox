@@ -10,11 +10,11 @@ body {
 }
 
 header {
-    height: 6vh;
+    height: 4rem;
     position: fixed;
     background-color: white;
     z-index: 1;
-    min-width: 100%;
+    width: 100%;
 }
 
 footer {
@@ -27,9 +27,7 @@ h1 {
     font-weight: 800;
     font-size: 4rem;
     text-align: justify;
-    padding-right: 200px;
     margin: 3rem 0 2rem 0;
-    min-width: 1400px;
 }
 
 h2 {
@@ -41,8 +39,10 @@ h3 {
 }
 
 h4 {
-    margin-top: 2rem;
+    margin: 2rem 0 0 0.4rem;
 }
+
+
 p > a {
     color: #0561FF;
 }
@@ -53,12 +53,6 @@ p > span {
     padding:1rem .3rem 2rem 0;
 }
 
-h4 ~ li::before {
-    content: "\2713";
-    color: #0561FF;
-    padding-right: .3rem;
-
-}
 .flex {
     display: flex;
 }
@@ -88,13 +82,17 @@ h4 ~ li::before {
 }
 
 .max-container {
-    width: 65%;
+    width: 60%;
     margin: 0 auto;
 }
 
 ul {
     list-style-type: none;
     display: inline-block;
+} 
+
+ul li a{
+    text-decoration: none;
 }
 
 header ul li{
@@ -112,6 +110,16 @@ div.nav-left img {
     vertical-align: bottom;
 }
 
+nav ul li a {
+    color: black;
+}
+
+ul li a:hover,
+button:hover{
+    text-decoration:underline;
+}
+
+
 .small-f {
     font-size: .8rem;
 }
@@ -121,6 +129,7 @@ div.nav-left img {
     background-color: white;
     border: none
 }
+
 button.blue-button {
     background-color: #0561FF;
     color: white;
@@ -189,8 +198,9 @@ label[for=month] {
 }
 
 .column-card {
-    height: 750px;
-    width: calc((100% / 3) - 2rem);
+    height: 870px;
+    width: calc((100% / 3) - 2.5rem);
+    min-width: 250px;
 }
 
 .column-card,
@@ -209,8 +219,16 @@ label[for=month] {
 
 .column-card ul li,
 .footer-top ul li{
-    line-height: 1rem;
+    line-height: 1.3rem;
     padding: .7rem 0;
+}
+
+ul.fa-ul {
+    margin-left: 1.5rem;
+}
+
+ul.fa-ul li i.fa-check {
+    color: #0561FF;
 }
 
 .sub-type,
@@ -241,7 +259,7 @@ label[for=month] {
     margin-top: 6rem;
 }
 .img-partner {
-    width: 65%;
+    width: 60%;
     height: 500px;
 }
 
@@ -268,8 +286,7 @@ section.business-cards {
 }
 
 .business-card img {
-    width: 320px;
-    height: 250px;
+    width: 100%
 }
 
 .business-card p {
@@ -308,6 +325,7 @@ div.top-features a {
 .box:hover img{
     transform: scale(1.5);
 }
+
 .box:hover{
     box-shadow: rgb(44, 62, 80) 0px 0px 15px 0px inset;
 
@@ -373,7 +391,6 @@ section.into-business {
 }
 
 .footer-top ul li a{
-    text-decoration: none;
     color: white;
 }
 
